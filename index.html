@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <!-- Header -->
@@ -30,6 +32,7 @@
     </header>
     <!-- Main -->
     <main>
+      <!-- Секция "HERO" -->
       <section>
         <h1>эффективные решения для вашего бизнеса</h1>
         <a href="">Заказать услугу</a>
@@ -71,11 +74,11 @@
               width="380"
               height="294"
             />
-            <h2>Десктопные приложения</h2>
+            <h3>Десктопные приложения</h3>
           </li>
           <li>
             <img src="./images/what-are-we-doing/mobile-app.jpg" alt="Мобильный телефон" width="380" height="294" />
-            <h2>Мобильные приложения</h2>
+            <h3>Мобильные приложения</h3>
           </li>
           <li>
             <img
@@ -84,6 +87,7 @@
               width="380"
               height="294"
             />
+            <h3>Дизайнерские решения</h3>
           </li>
         </ul>
       </section>
@@ -258,49 +262,48 @@
     </main>
     <!-- Footer -->
     <footer>
-      <ul>
-        <li>
-          <a href="/">Web Studio</a>
-          <address>
-            г. Киев, пр-т Леси Украинки, 26 <br />
-            info@example.com <br />
-            +38 099 111 11 11
-          </address>
-        </li>
-        <li>
-          <ul>
-            <li>
-              <a href="https://www.instagram.com/?hl=ru"
-                ><img src="./images/social-network/instagram.svg" alt="Иконка Инстаграмма" width="44" height="44"
-              /></a>
-            </li>
-            <li>
-              <a href="https://twitter.com/explore"
-                ><img src="./images/social-network/twitter.svg" alt="Иконка Твитера" width="44" height="44"
-              /></a>
-            </li>
-            <li>
-              <a href="https://uk-ua.facebook.com/"
-                ><img src="./images/social-network/facebook.svg" alt="Иконка Фейсбука" width="44" height="44"
-              /></a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/"
-                ><img src="./images/social-network/linkedin.svg" alt="Иконка Линкедин" width="44" height="44"
-              /></a>
-            </li>
-          </ul>
-        </li>
-        <li>
-          <form>
-            <label>
-              <span>Подпишитесь на рассылку</span>
-              <input type="email" name="email" placeholder="E-mail" required />
-            </label>
-            <button type="submit">Подписаться</button>
-          </form>
-        </li>
-      </ul>
+      <div>
+        <a href="/">Web Studio</a>
+        <address>
+          г. Киев, пр-т Леси Украинки, 26 <br />
+          info@example.com <br />
+          +38 099 111 11 11
+        </address>
+      </div>
+      <div>
+        <b>Присоединяйтесь</b>
+        <ul>
+          <li>
+            <a href="https://www.instagram.com/?hl=ru"
+              ><img src="./images/social-network/instagram.svg" alt="Иконка Инстаграмма" width="44" height="44"
+            /></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/explore"
+              ><img src="./images/social-network/twitter.svg" alt="Иконка Твитера" width="44" height="44"
+            /></a>
+          </li>
+          <li>
+            <a href="https://uk-ua.facebook.com/"
+              ><img src="./images/social-network/facebook.svg" alt="Иконка Фейсбука" width="44" height="44"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/"
+              ><img src="./images/social-network/linkedin.svg" alt="Иконка Линкедин" width="44" height="44"
+            /></a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <form>
+          <label>
+            <span>Подпишитесь на рассылку</span>
+            <input type="email" name="email" placeholder="E-mail" required />
+          </label>
+          <button type="submit">Подписаться</button>
+        </form>
+      </div>
     </footer>
   </body>
 </html>
